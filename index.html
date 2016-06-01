@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <scrip src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+
+      <form id="survey">
+        <div class="form-group">
+          <label for="name">Your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="food">Your favorite food:</label>
+          <select class="form-control" id="food">
+            <option>Pizza</option>
+            <option>Pasta</option>
+            <option>Curry</option>
+            <option>Soup</option>
+            <option>Sandwiches</option>
+            <option>Roast</option>
+            <option>Cookies</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p><strong>Your favorite music:</strong></p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="classical">
+              Classical
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="rock">
+              Rock
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="rap">
+              Rap
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="color">Select your favorite color:</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <div class="form-group">
+          <label for="born">Your date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <div class="form-group">
+          <label for="live">Where do you live?</label>
+          <input id="live" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+
+      </form>
+
+
+      <div id="results">
+        <h3>Your survey results:</h3>
+        <p>Your name is <span id="name-result"></span>. Your favorite food is <span id="food-result"></span> and your favorite type of music is <span id="music-result"></span>. The hexidecimal code of your favorite color is <span id="color-result"></span>. You were born on <span id="born-result"></span>, and you live in <span id="live-result"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
