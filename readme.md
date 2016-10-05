@@ -11,7 +11,7 @@ _This is a survey that contains different questions about personal preferences i
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _Open HTML file in a browser (preferred: Google Chrome)_
+* _Open HTML file in a browser _
 * _Answer questions_
 
 ## Support and contact details
